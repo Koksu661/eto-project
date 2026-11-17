@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+html, body {
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* src/index.css */
+@font-face {
+  font-family: 'Futura PT';
+  src: url('/fonts/FuturaPT-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url('/fonts/FuturaPT-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url('/fonts/FuturaPT-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@import "tailwindcss";
+
+:root {
+  --bg-page: #0A120E;
+  --bg-card: #111C16;
+  --bg-input: #0A120E;
+  --text-main: #ffffff;
+  --text-muted: #94a3b8;
+  --border-subtle: rgba(255, 255, 255, 0.30);
+  --accent-gold: #B9975B;
+}
+
+.light {
+  --bg-page: #E5E8E3;
+  --bg-card: #e6e6e6;
+  --bg-input: #DDE1DA;
+  --text-main: #1C2621;
+  --text-muted: #4E5D55;
+  --border-subtle: rgba(28, 38, 33, 0.16);
+  --accent-gold: #9A7638;
+}
